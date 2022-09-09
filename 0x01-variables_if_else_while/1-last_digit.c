@@ -1,7 +1,7 @@
 /**
- * main - print the last digit of the random
- * number stored in the variable n
- * Return Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 #include <stdio.h>
 #include <stdlib.h>
