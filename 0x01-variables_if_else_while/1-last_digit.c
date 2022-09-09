@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * This is a main function
- */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
