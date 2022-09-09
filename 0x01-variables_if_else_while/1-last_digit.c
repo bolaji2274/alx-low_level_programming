@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** more headers goes there 
- *  betty style doc for function main goes there 
+/*
+ * This is a description
  */
 int main(void)
 {
@@ -28,6 +28,8 @@ int main(void)
 	{
 		printf("and is less than 6 and not 0\n");
 	}
-	/* The program return 0*/
-	return (0);
+	/**
+	 *  The program return 0
+	 */
+	return (0); /* This a return */
 }
