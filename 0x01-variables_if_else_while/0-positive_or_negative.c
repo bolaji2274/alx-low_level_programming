@@ -2,6 +2,7 @@
  *  * * main - Entry point
  * * Return: Always 0 (Success)
  **/
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
