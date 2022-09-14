@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (j != 203532552)
 		{
-			printf("%ld,", j);
+			printf("%ld, ", j);
 		}
 		else
 		{
