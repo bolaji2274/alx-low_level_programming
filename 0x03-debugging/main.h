@@ -1,8 +1,10 @@
 #define MAIN_H
 #define MAIN_H
 
-int largest_number(int a, int b, int c);
 
+#include <stdio.h>
 
+void positive_or_negative(int i);
+int lergest_number(int a. int b, int c);
 
-#endif
+#endif /* MAIN_H */
