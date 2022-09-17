@@ -9,7 +9,7 @@
 int _isupper(int c)
 {
 
-	if (c == isuper(c))
+	if (isupper(c))
 	{
 		return 1;
 	}
