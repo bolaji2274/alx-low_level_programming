@@ -4,7 +4,7 @@
  * @a: int to be multiplied by b
  * @b: int to be multiplied to a
  *
- * Return: 0 Always 
+ * Return: 0 Always
  */
 
 int mul(int a, int b)
@@ -13,6 +13,6 @@ int mul(int a, int b)
 
 	c = a * b;
 
-	return c;
+	return (c);
 }
 
