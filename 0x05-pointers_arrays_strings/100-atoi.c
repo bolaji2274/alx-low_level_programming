@@ -13,6 +13,11 @@ int _atoi(char *s)
 	int len, d, n, i, f, digit;
 
 	len = strlen(s);
+	i = 0;
+	d = 0;
+	n = 0;
+	digit = 0;
+	f = 0;
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
