@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts - This function print 2 character ahead
+ * puts2 - This function print 2 character ahead
  * @str: This is an argument for the function
  */
 
