@@ -8,11 +8,10 @@
 
 void print_array(int *a, int n)
 {
-	int size, i;
+	int i;
 
-	size = sizeof(n) / sizeof(n);
-	for (i = 0; i < size; i++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%d, ", n[i]);
+		printf("%d, ", a[i]);
 	}
 }
