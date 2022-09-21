@@ -5,6 +5,7 @@
  * main - This program generate a random password
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i, sum, n;
@@ -14,7 +15,7 @@ int main(void)
 
 	srand(time(NULL));
 
-	for (i = 0; i < 100; 1++)
+	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand() % 78;
 		sum += (pass[i] + '0');
