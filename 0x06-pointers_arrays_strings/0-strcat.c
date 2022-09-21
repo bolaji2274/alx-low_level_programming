@@ -11,7 +11,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int len, len2;
+	int len, len2, i;
 
 	len = strlen(dest);
 	len2 = strlen(src);
