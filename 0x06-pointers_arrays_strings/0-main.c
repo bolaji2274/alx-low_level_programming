@@ -11,19 +11,24 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int len, len2, i;
+	int i, j;
 
-	len = strlen(dest);
-	len2 = strlen(src);
-	for (i = 0; i < len2; i++)
+	i = 0;
+	j = 0;
+
+	while (dest[i] != '\0')
+		i++;
+	while (src[j] != '\0')
 	{
-		dest[len + 1] = src[i];
+		dest[i] = src[j];
+		j++;
+		i++;
 	}
-
-	dest[len] = '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
+
 #include "main.h"
 #include <stdio.h>
 
