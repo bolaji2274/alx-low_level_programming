@@ -1,6 +1,26 @@
 #include "main.h"
+#include <string.h>
 /**
- * leet - This is function encoded a string
- * 
+ * leet - This function encoded a string
+ * @s: This is a string to encode
+ * Return: This function return encoded string
  */
+
+char *leet(char *s)
+{
+	int i, j;
+
+	char *a = "aAeEoOtTlL";
+	char *b = "4433007711";
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; j < strlen(b); j++)
+		{
+			if (s[i] == a[i])
+				s[i] = b[j];
+		}
+	}
+	return (s);
+}
 
