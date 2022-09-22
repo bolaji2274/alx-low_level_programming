@@ -4,10 +4,12 @@
  * string_toupper - This string will convert lowercase to upper
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	int i, len;
+	char *s;
 
+	s = (char *)malloc(1 * sizeof(char));
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
