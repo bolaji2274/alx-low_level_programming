@@ -8,10 +8,9 @@
 char *cap_string(char *str)
 {
 	int i, j;
-	char space[13];
-
-	space[14] = {' ', '\t', '\n', ',', ';', ':', '!', '?',
+	char space[14] = {' ', '\t', '\n', ',', ';', ':', '!', '?',
 '"', '(', ')', '{', '}'};
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
