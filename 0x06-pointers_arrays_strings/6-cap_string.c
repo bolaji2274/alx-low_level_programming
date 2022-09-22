@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * cap_string - This function capitalise all world
  * @str: The string to capitalise
