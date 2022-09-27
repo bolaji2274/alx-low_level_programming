@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <string.h>
 /**
  * print_diagsums - This function print the sum of diagonal of sqaure matrix
