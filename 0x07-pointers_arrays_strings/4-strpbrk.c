@@ -9,7 +9,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int len;
+	int *len;
 
 	len = strpbrk(s, accept);
 	return (len);
