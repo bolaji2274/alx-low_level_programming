@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _memcpy- This function copy a string to a dest
  * @dest: This is destination for copy memory
@@ -10,6 +9,11 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	memcpy(dest, src, n);
+	unsigned int i;
+	
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
 	return (dest);
 }
