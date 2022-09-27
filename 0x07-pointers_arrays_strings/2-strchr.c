@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strchr - This function return the first character
  * @s: This the string to return from
@@ -8,7 +7,17 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *c1 = strchr(s, c);
-
-	return (c1);
+	int i;
+	while(1)
+	{
+		i = *s++;
+		if (i == c)
+		{
+			return (s - 1);
+		}
+		if (i == 0)
+		{
+			return (NULL);
+		}
+	}
 }
