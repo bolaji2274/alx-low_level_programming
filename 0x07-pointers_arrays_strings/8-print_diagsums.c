@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 /**
  * print_diagsums - This function print the sum of diagonal of sqaure matrix
  * @a: This is array to find diagonal
@@ -19,7 +18,7 @@ void print_diagsums(int *a, int size)
 		for (j = 0; j < size; j++)
 		{
 			if (i == j)
-				sum1 += a[i][j];
+				sum1 += a[i][i];
 		}
 	}
 	for (i = 0, i < size; i++)
@@ -27,7 +26,7 @@ void print_diagsums(int *a, int size)
 		for (j = 0; j < size; j++)
 		{
 			if ((i + j) == (size - 1))
-				sum2 += a[i][j];
+				sum2 += a[i][i];
 		}
 	}
 	printf("%d, %d\n", sum1, sum2);
