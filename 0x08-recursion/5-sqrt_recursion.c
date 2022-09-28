@@ -1,4 +1,5 @@
 #include "main.h"
+int check_sqrt(int n, int i);
 /**
  * _sqrt_recursion - This function return the square root of n
  * @n: This is an interger variable for the function
